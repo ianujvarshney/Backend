@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "'We are going to write a backend with database model with chai-aur-code.'",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "Node",
+    "Express",
+    "MongoDB",
+    "Database",
+    "Chai-aur-code"
+  ],
+  "author": "anuj varshney",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
