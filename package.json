@@ -1,11 +1,11 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "'We are going to write a backend with database model with chai-aur-code.'",
+  "description": "We are going to write a backend with database model with chai-aur-code.",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/index.js"
   },
   "keywords": [
     "javascript",
@@ -20,5 +20,10 @@
   "devDependencies": {
     "nodemon": "^3.0.1",
     "prettier": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
   }
 }
